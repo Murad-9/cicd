@@ -37,8 +37,8 @@ jobs:
 
 
         - name: notify of success
-          if: success()
           run: echo "tests passed on python ${{ matrix.python-version}}"
+          if: success()
           
 
     
